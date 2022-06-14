@@ -1,5 +1,5 @@
 head, body{
-    /* background-color: red; */
+    background-color: white;
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -222,7 +222,7 @@ body .svg2{
     }
 
     .content .jumbotron .left{
-        margin: 80px 50px 0 50px;
+        margin: 40px 50px 40px 50px;
         padding: 12px 0 0 0;
         text-align: center;
         /* background-color: #198754; */
