@@ -1,0 +1,111 @@
+head, body{
+    /* background-color: red; */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: #259022;
+    display: flex;
+    height: 8vh;
+}
+
+
+nav .nav-left{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    padding-left: 100px;
+}
+
+nav .nav-left ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-left img{
+    width: 132px;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-right{
+    /* background-color: rgb(26, 134, 98); */
+    display: flex;
+    flex: 50%;
+    align-items: center;  
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+nav .nav-right ul{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-right li{
+    display: inline;
+}
+
+nav .nav-right ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+nav .nav-right ul li a:hover{
+    color: #FFCA0E ;
+    margin: 0;
+}
+
+/* Container */
+.container{
+    display: flex;
+    height: 92vh;
+    padding: 0 100px;
+}
+
+body .svg1{
+    position:absolute;
+    top : 56vh;
+    z-index: 1;
+}
+
+body .svg2{
+    position:absolute;
+    top: 53vh;
+}
+.container .jumbotron{
+    display: flex;
+    flex: 100%;
+}
+
+.container .jumbotron .left{
+    /* background-color: #FFCA0E; */
+    flex: 50%;
+    padding-top: 80px;
+}
+
+.container .jumbotron .left h1{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+}
+
+.container .jumbotron .left p{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.container .jumbotron .right{
+    /* background-color: #504315; */
+    flex: 50%;
+}
